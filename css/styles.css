@@ -1,0 +1,151 @@
+a, p {
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+a[href]:hover {
+    color: #4D5AE5;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 800;
+    margin-right: 76px;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.header-menu-link {
+
+    font-weight: 500;
+}
+
+.order {
+    background-color: #2E2F42;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;  
+}
+
+.order-heading {
+
+    font-weight: 700;
+    font-size: 56px;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 16px 32px;
+}
+
+a .service-item {
+    font-size: 20px;
+}
+
+.header-what-we-do, .header-team {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.photo-team {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    letter-spacing: .32px;
+    height: 312px;
+    
+}
+
+footer p {
+    color: #F4F4FD;
+    letter-spacing: .32px;
+}
+
+footer .logo {
+    color: #F4F4FD;
+}
+
+.footer {
+    padding-left: 156px;
+    padding-top: 101.5px;
+}
+
+.container {
+    width: 1158px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
+.header-menu {
+    gap: 40px;
+}
+
+.header-contact {
+    gap: 40px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section ul {
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.service-item {
+    width: 260px;
+}
+
+.team {
+    background-color:#F4F4FD;
+}
+
+.photo-team {
+    border-radius: 0px 0px 4px 4px;
+    background-color:#FFF;
+}
